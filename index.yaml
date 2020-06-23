@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  test-chart-v2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-23T03:12:06.456314987Z"
+    description: A Helm chart for Kubernetes
+    digest: 82d006b9ac8e6d95b8da486d989377bf836a97f2793a6f6e26c801bd97d37f73
+    home: http://github.com/paulczar/my-helm-charts
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+    name: test-chart-v2
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/test-chart-v2-0.1.0/test-chart-v2-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-23T03:12:06.362779533Z"
