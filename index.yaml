@@ -6,7 +6,7 @@ entries:
     created: "2020-06-23T03:12:06.456314987Z"
     description: A Helm chart for Kubernetes
     digest: 82d006b9ac8e6d95b8da486d989377bf836a97f2793a6f6e26c801bd97d37f73
-    home: http://github.com/paulczar/my-helm-charts
+    home: http://github.com/keyporttech/helm-charts
     maintainers:
     - email: github@keyporttech.com
       name: keyporttech
