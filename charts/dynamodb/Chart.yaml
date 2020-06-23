@@ -23,6 +23,6 @@ sources:
   - https://github.com/aaronshaf/dynamodb-admin
 
 maintainers:
-  - name: John Felten
+  - name: keyporttech
     email: github@keyporttech.com
     url: https://github.com/keyporttech/helm-charts
