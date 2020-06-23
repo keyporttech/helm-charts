@@ -26,5 +26,6 @@ appVersion: 1.16.0
 home: http://github.com/keyporttech/helm-charts
 
 maintainers:
-  - name: keyporttech
+  - name: John Felten
     email: github@keyporttech.com
+    url: https://github.com/keyporttech/helm-charts
