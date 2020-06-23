@@ -14,7 +14,9 @@ Project that hosts a Helm Chart repository using GitHub Pages and Actions.
 
 ## How to Use the Chart Repository
 
-* Add your charts repository to your local machine with `helm repo add keyporttech https://keyporttech.github.io/helm-charts
+* Add the charts repository to your local repository list "helm repo add keyporttech https://keyporttech.github.io/helm-charts/"
+* List the repositories now configured "helm repo list"
+* Search for charts in the repository "helm search repo keyporttech"
 
 ## Actions
 
