@@ -1,3 +1,0 @@
-[submodule "charts/helm-dynamodb"]
-	path = charts/helm-dynamodb
-	url = git@github.com:keyporttech/helm-dynamodb.git
