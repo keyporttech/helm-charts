@@ -6,11 +6,11 @@ This is the helm repository for keyporttech helm charts. This repo is created fo
 
 ## Project Status
 
-`master` supports Helm 3 only, i. e. both `v1` and `v2` [API version](https://helm.sh/docs/topics/charts/#the-apiversion-field) charts are installable.
+Keyporttech supports Helm 3 only, i. e. both `v1` and `v2` [API version](https://helm.sh/docs/topics/charts/#the-apiversion-field) charts are installable.
 
-## Sample Chart Sources
+## Chart Sources
 
-* `charts/test-chart-v2`: Sample chart with API version v2
+* `charts/*`: Sample chart with API version v2
 
 ## How to Use the Chart Repository
 
