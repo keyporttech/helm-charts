@@ -18,7 +18,7 @@ Keyporttech supports Helm 3 only, i. e. both `v1` and `v2` [API version](https:/
 * List the repositories now configured "helm repo list"
 * Search for charts in the repository "helm search repo keyporttech"
 
-## Actions
+## Github Actions used by this repo
 
 * [@helm/kind-action](https://github.com/helm/kind-action)
 * [@helm/chart-testing-action](https://github.com/helm/chart-testing-action)
