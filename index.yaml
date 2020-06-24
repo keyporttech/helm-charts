@@ -1,6 +1,39 @@
 apiVersion: v1
 entries:
+  dynamodb:
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-06-24T00:12:17.477821895Z"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: 4976b7d752ed05f1d2b15e79c295328d825816bf8a8e02a1a09200efad21e209
+    home: https://github.com/keyporttech/helm-dynamodb
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.0/dynamodb-0.1.0.tgz
+    version: 0.1.0
   test-chart-v2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-24T00:12:17.586338659Z"
+    description: A Helm chart for Kubernetes
+    digest: c79141fe2815be0535ade6b2aee1a631906e1cd51d514cdb1f665793c93624ae
+    home: http://github.com/keyporttech/helm-charts
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: test-chart-v2
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/test-chart-v2-0.1.1/test-chart-v2-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2020-06-23T03:12:06.456314987Z"
