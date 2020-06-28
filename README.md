@@ -14,8 +14,18 @@ Keyporttech supports Helm 3 only, i. e. both `v1` and `v2` [API version](https:/
 
 ## How to Use the Chart Repository
 
-* Add the charts repository to your local repository list "helm repo add keyporttech https://keyporttech.github.io/helm-charts/"
-* List the repositories now configured "helm repo list"
+* Add the charts repository to your local repository list
+
+```bash
+helm repo add keyporttech https://keyporttech.github.io/helm-charts/
+```
+
+* List the repositories now configured
+
+```
+helm repo list
+```
+
 * Search for charts in the repository "helm search repo keyporttech"
 
 ## Github Actions used by this repo
