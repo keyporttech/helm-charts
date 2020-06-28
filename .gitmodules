@@ -1,0 +1,3 @@
+[submodule "charts/dynamodb"]
+	path = charts/dynamodb
+	url = https://github.com/keyporttech/helm-dynamodb.git

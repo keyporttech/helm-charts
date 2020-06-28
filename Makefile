@@ -15,6 +15,8 @@ CHART=dynamodb
 VERSION = $(shell yq r Chart.yaml 'version')
 REGISTRY_TAG=${REGISTRY}/${CHART}:${VERSION}
 
+SSH_PRIVATE_KEY := $(shell cat ~/.ssh/id_bot )
+
 lint:
 	@echo "linting..."
 	helm lint
@@ -31,7 +33,12 @@ build: lint
 
 .PHONY: build
 
-publish-local-registry:
+run-github-actions-local:
+
+	docker run -it -v $$home/.ssh:/root/.ssh -v /var/run/docker.sock:/var/run/docker.sock -v `pwd`:/workdir -w /workdir -e CR_TOKEN="$$GITHUB_TOKEN" registry.keyporttech.com:30243/github-actions:0.1.0 act -s CR_TOKEN=$$GITHUB_TOKEN -s SSH_PRIVATE_KEY="$(SSH_PRIVATE_KEY)" -P ubuntu-latest=nektos/act-environments-ubuntu:18.04
+.PHONY: run-github-actions-local
+
+publish-registry:
 	REGISTRY_TAG=${REGISTRY}/${CHART}:${VERSION}
 	@echo "publishing to ${REGISTRY_TAG}"
 	HELM_EXPERIMENTAL_OCI=1 helm chart save ./ ${REGISTRY_TAG}
