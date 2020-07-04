@@ -18,12 +18,14 @@ set -o pipefail
 CHART=$1
 VERSION=$2
 CHART_DIR=$3
+
+WORK_DIR=/tmp/helm-charts
 cr upload --token ${GITHUB_TOKEN} --owner keyporttech --git-repo helm-Charts --package-path $CHART_DIR
 rm -rf helm-charts;
-git clone https://keyporttech-bot:${GITHUB_TOKEN}@github.com/keyporttech/helm-charts.git;
+git clone https://keyporttech-bot:${GITHUB_TOKEN}@github.com/keyporttech/helm-charts.git $WORK_DIR;
 mkdir -p helm-charts/charts/$CHART
-cp -rf $CHART_DIR/* helm-charts/charts/$CHART
-cd helm-charts;
+cp -rf $CHART_DIR/* $WORK_DIR/charts/$CHART
+cd $WORK_DIR;
 git checkout gh-pages;
 helm package charts/$CHART;
 mkdir -p .cr-release-packages .cr-index;
@@ -35,4 +37,3 @@ git config --global user.email "bot@keyporttech.com";
 git config --global user.name "keyporttech-bot";
 git add ./index.yaml;
 git commit -m "release $CHART:$VERSION";
-git push --set-upstream origin gh-pages;
