@@ -20,7 +20,7 @@ VERSION=$2
 CHART_DIR=$3
 
 WORK_DIR=/tmp/helm-charts
-#cr upload --token ${GITHUB_TOKEN} --owner keyporttech --git-repo helm-Charts --package-path $CHART_DIR
+cr upload --token ${GITHUB_TOKEN} --owner keyporttech --git-repo helm-Charts --package-path $CHART_DIR
 rm -rf helm-charts;
 git clone https://keyporttech-bot:${GITHUB_TOKEN}@github.com/keyporttech/helm-charts.git $WORK_DIR;
 mkdir -p helm-charts/charts/$CHART
