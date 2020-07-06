@@ -37,4 +37,4 @@ git config --global user.email "bot@keyporttech.com";
 git config --global user.name "keyporttech-bot";
 git add ./index.yaml;
 git commit -m "release $CHART:$VERSION";
-git push -u origin github-pages
+git push -u origin gh-pages;
