@@ -3,9 +3,9 @@ entries:
   dynamodb:
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2020-07-03T19:12:44.276516653-07:00"
+    created: "2020-07-05T23:49:14.777857079-07:00"
     description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: 5ddc3b50d0da9fceecbeccdc15b7e58d7eb74d24e6066ef9a672befc7de2f2fe
+    digest: 67ede87e76f344b28eb2a1c7236b1e3dc574fc31e291ea4057e7676a09c4368b
     home: https://github.com/keyporttech/helm-dynamodb
     icon: https://www.iconfinder.com/icons/259307/download/png/512
     maintainers:
@@ -18,6 +18,6 @@ entries:
     - https://hub.docker.com/r/amazon/dynamodb-local
     type: application
     urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.3/dynamodb-0.1.3.tgz
-    version: 0.1.3
-generated: "2020-07-03T19:12:43.976610482-07:00"
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.17/dynamodb-0.1.17.tgz
+    version: 0.1.17
+generated: "2020-07-05T23:49:14.514687178-07:00"
