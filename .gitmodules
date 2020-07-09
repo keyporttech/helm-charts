@@ -1,3 +1,9 @@
 [submodule "charts/dynamodb"]
 	path = charts/dynamodb
 	url = https://github.com/keyporttech/helm-dynamodb.git
+[submodule "charts/statsd"]
+	path = charts/statsd
+	url = git@github.com:keyporttech/helm-statsd.git
+[submodule "charts/gitea"]
+	path = charts/gitea
+	url = git@github.com:jfelten/gitea-helm-chart.git
