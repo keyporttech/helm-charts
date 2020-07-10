@@ -3,13 +3,13 @@ entries:
   statsd:
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-07-09T02:42:02.189004431Z"
+    created: "2020-07-10T04:58:17.328948138Z"
     description: a simple chart to deploy statsd to a cluster
-    digest: 2cca56c46741f3b0797495e08c87298509ee0221fbbb0992fd6eec63a16de975
+    digest: aa714bc56fa841b2d69bb7fd40d05414a84d65b4e6e4f8adec762bda8d068e11
     home: https://github.com/keyporttech/helm-statsd
     name: statsd
     type: application
     urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/statsd-0.1.0/statsd-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-07-09T02:42:01.767267621Z"
+    - https://github.com/keyporttech/helm-charts/releases/download/statsd-0.1.3/statsd-0.1.3.tgz
+    version: 0.1.3
+generated: "2020-07-10T04:58:17.114109391Z"
