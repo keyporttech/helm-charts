@@ -5,7 +5,7 @@
 This is the helm repository for keyporttech helm charts, and is for publishing and distribution purposes only. Unlike many helm chart repositories keyporttech does not use a mono repo design. All chart git repo names are prefixed with "helm-" and are linked as git submodules under the charts dir.
 
 ## Contributing
-Please submit any pull requests to the individual chart repos themselves. Please see [keyporttech charts contribution guidelines](https://github.com/keyporttech/helm-charts/blob/CONTRIBUTING.md)
+Please submit any pull requests to the individual chart repos themselves. Please see [keyporttech charts contribution guidelines](https://github.com/keyporttech/helm-charts/blob/master/CONTRIBUTING.md)
 
 ## Project Status
 
