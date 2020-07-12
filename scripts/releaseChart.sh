@@ -38,3 +38,7 @@ git config --global user.name "keyporttech-bot";
 git add ./index.yaml;
 git commit -m "release $CHART:$VERSION";
 git push -u origin gh-pages;
+# update submodules
+git checkout master
+git submodule update --remote --merge
+git commit -m "release $CHART:$VERSION";
