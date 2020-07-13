@@ -26,8 +26,7 @@ git clone https://keyporttech-bot:${GITHUB_TOKEN}@github.com/keyporttech/helm-ch
 mkdir -p helm-charts/charts/$CHART
 cp -rf $CHART_DIR/* $WORK_DIR/charts/$CHART
 cd $WORK_DIR;
-git submodule update --remote --merge
-git commit -m "release $CHART:$VERSION";
+git submodule update --remote --merge && git commit -m "release $CHART:$VERSION" && git push -u origin master || :;
 git checkout gh-pages;
 helm package charts/$CHART;
 mkdir -p .cr-release-packages .cr-index;
