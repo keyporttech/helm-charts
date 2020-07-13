@@ -1,4 +1,5 @@
 # Helm chart automated files
 charts/*/charts
 scripts/helm-charts
+scripts/.cr-release-packages
 .idea
