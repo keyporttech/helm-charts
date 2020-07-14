@@ -26,6 +26,8 @@ cr upload --token ${GITHUB_TOKEN} --owner keyporttech --git-repo helm-Charts --p
 helm package $CHART_DIR;
 
 rm -rf $WORK_DIR;
+git config --global user.email "bot@keyporttech.com";
+git config --global user.name "keyporttech-bot";
 git clone https://keyporttech-bot:${GITHUB_TOKEN}@github.com/keyporttech/helm-charts.git $WORK_DIR;
 mkdir -p helm-charts/charts/$CHART
 cp -rf $CHART_DIR/*.tgz $WORK_DIR/.cr-release-packages
@@ -36,8 +38,6 @@ mkdir -p .cr-release-packages .cr-index;
 git fetch --prune;
 cr index --charts-repo https://keyporttech.github.io --owner keyporttech --git-repo helm-charts;
 cp -f .cr-index/index.yaml ./index.yaml;
-git config --global user.email "bot@keyporttech.com";
-git config --global user.name "keyporttech-bot";
 git add ./index.yaml;
 git commit -m "release $CHART:$VERSION";
 git push -u origin gh-pages;
