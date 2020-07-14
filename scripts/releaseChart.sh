@@ -30,14 +30,16 @@ git config --global user.email "bot@keyporttech.com";
 git config --global user.name "keyporttech-bot";
 git clone https://keyporttech-bot:${GITHUB_TOKEN}@github.com/keyporttech/helm-charts.git $WORK_DIR;
 mkdir -p helm-charts/charts/$CHART
-cp -rf $CHART_DIR/*.tgz $WORK_DIR/.cr-release-packages
+cd $WORK_DIR && git submodule update --remote --merge && git commit -m "release $CHART:$VERSION" && git push -u origin master || :;
+
+#update index
+cd $WORK_DIR && git checkout gh-pages;
+cp -rf $CHART_DIR/*.tgz $WORK_DIR/.cr-release-packages;
 cd $WORK_DIR;
-git submodule update --remote --merge && git commit -m "release $CHART:$VERSION" && git push -u origin master || :;
-git checkout gh-pages;
-mkdir -p .cr-release-packages .cr-index;
-git fetch --prune;
+mkdir -p .cr-index;
 cr index --charts-repo https://keyporttech.github.io --owner keyporttech --git-repo helm-charts;
 cp -f .cr-index/index.yaml ./index.yaml;
 git add ./index.yaml;
+git add .cr-release-packages/*
 git commit -m "release $CHART:$VERSION";
 git push -u origin gh-pages;

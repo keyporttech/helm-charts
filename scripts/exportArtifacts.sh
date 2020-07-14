@@ -18,5 +18,5 @@ for row in $(echo "${releases}" | jq -r '.[] | @base64'); do
     }
    file_name=$(echo $(_jq '.assets[0].name'))
    download_url=$(echo $(_jq '.assets[0].browser_download_url'))
-   curl -o .cr-release-packages/$file_name $download_url
+   curl -o .cr-release-packages/$file_name -LO $download_url
 done
