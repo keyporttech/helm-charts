@@ -1,15 +1,274 @@
 apiVersion: v1
 entries:
+  dynamodb:
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:32.465757935-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: c73cfbf89efba393fc1b1a11c385902d0dee0a6922f238eabdc4eb5e44649cc4
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.21/dynamodb-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:32.291111631-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: ed6dc9b7667b037c32d5e3d4b7488dc027a81716ea95d842ec15be8fb5d7e43a
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.20/dynamodb-0.1.20.tgz
+    version: 0.1.20
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:32.161768363-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: 5534cd827b96083c9384b5bdbfde2e64ca9599156579c3f2f9726599628aef78
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.18/dynamodb-0.1.18.tgz
+    version: 0.1.18
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:31.951420948-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: d80c09141553e0c44826f2a95e4e060cfc99953e315f41cad47a3e8d0e2331e2
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.17/dynamodb-0.1.17.tgz
+    version: 0.1.17
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:31.58592846-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: 8eae4910c50435c9d34a17a14a82ebbb068f5a0d7be70c4ae96fc849bab6a83e
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.16/dynamodb-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:31.442795812-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: a2081698ff4d7ebcbbe25d0d4a544c9b77aec0413fd6c1cd8cc19c76f0542747
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.15/dynamodb-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:31.206108273-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: 45b9ba9e8cab4579aab1adf11d02f725dd3c9c2c11b975ac2050ebd8659836e1
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.14/dynamodb-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:31.068127223-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: fe1ff8f37511e1e38ebca9769fc89905185035618e879311d04ef1fd24e1ef7d
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.13/dynamodb-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:30.929331766-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: efc33df54b55a23e46727a9e28bab3468486633a1f42495fd711b404e8400eb1
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.12/dynamodb-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:30.732283932-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: 4791e9d8604e89e033bb8900e85e9fa870e818eb80c78277490b24e76e67c8be
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.11/dynamodb-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2020-07-14T08:38:30.579433568-07:00"
+    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
+    digest: 1463cbc85773935c732b696a6595f8cb04b093ac1952172dc5748caecf673a89
+    home: https://github.com/keyporttech/helm-dynamodb
+    icon: https://www.iconfinder.com/icons/259307/download/png/512
+    maintainers:
+    - email: github@keyporttech.com
+      name: keyporttech
+      url: https://github.com/keyporttech/helm-charts
+    name: dynamodb
+    sources:
+    - https://github.com/aaronshaf/dynamodb-admin
+    - https://hub.docker.com/r/amazon/dynamodb-local
+    type: application
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.10/dynamodb-0.1.10.tgz
+    version: 0.1.10
+  gitea:
+  - apiVersion: v2
+    appVersion: 1.12.2
+    created: "2020-07-14T08:38:32.88187489-07:00"
+    description: Git with a cup of tea
+    digest: 204a113f595ebdf306caf6bc16e3e59a8bbe63417e448e173115f70af2b78b0c
+    home: https://github.com/jfelten/gitea-helm-chart
+    icon: https://docs.gitea.io/images/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: john.felten@gmail.com
+      name: John Felten
+    name: gitea
+    sources:
+    - https://github.com/go-gitea/gitea
+    - https://hub.docker.com/r/gitea/gitea/
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/gitea-0.2.1/gitea-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 1.12.2
+    created: "2020-07-14T08:38:32.671094513-07:00"
+    description: Git with a cup of tea
+    digest: 9a06876e94333e3295edfd2a3527edc8cba8968bbc2695006db47cf4f4376973
+    home: https://github.com/jfelten/gitea-helm-chart
+    icon: https://docs.gitea.io/images/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: john.felten@gmail.com
+      name: John Felten
+    name: gitea
+    sources:
+    - https://github.com/go-gitea/gitea
+    - https://hub.docker.com/r/gitea/gitea/
+    urls:
+    - https://github.com/keyporttech/helm-charts/releases/download/gitea-0.2.0/gitea-0.2.0.tgz
+    version: 0.2.0
   statsd:
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-07-14T06:06:38.853201665Z"
+    created: "2020-07-14T08:38:33.078794327-07:00"
     description: a simple chart to deploy statsd to a cluster
-    digest: d8f850ae25e611aa9d863227f6bdeabe5c684b668ca7ea3a5b8d628e94974583
+    digest: 19cad57203c189202e8d5a716fc14e7c1825785075829fca8fb2c03592e8a79a
     home: https://github.com/keyporttech/helm-statsd
     name: statsd
     type: application
     urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/statsd-0.1.11/statsd-0.1.11.tgz
-    version: 0.1.11
-generated: "2020-07-14T06:06:38.629440688Z"
+    - https://github.com/keyporttech/helm-charts/releases/download/statsd-0.1.18/statsd-0.1.18.tgz
+    version: 0.1.18
+generated: "2020-07-14T08:38:30.391332812-07:00"
