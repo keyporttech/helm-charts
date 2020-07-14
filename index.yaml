@@ -1,23 +1,15 @@
 apiVersion: v1
 entries:
-  dynamodb:
+  statsd:
   - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-07-07T04:44:28.584898485Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: 43ab861d8072ebe77c798fb907163b90c7ad5a675b3ca5a0f8a3f13838bbfd94
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
+    appVersion: v0.8.6
+    created: "2020-07-14T06:06:38.853201665Z"
+    description: a simple chart to deploy statsd to a cluster
+    digest: d8f850ae25e611aa9d863227f6bdeabe5c684b668ca7ea3a5b8d628e94974583
+    home: https://github.com/keyporttech/helm-statsd
+    name: statsd
     type: application
     urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.21/dynamodb-0.1.21.tgz
-    version: 0.1.21
-generated: "2020-07-07T04:44:28.346710896Z"
+    - https://github.com/keyporttech/helm-charts/releases/download/statsd-0.1.11/statsd-0.1.11.tgz
+    version: 0.1.11
+generated: "2020-07-14T06:06:38.629440688Z"
