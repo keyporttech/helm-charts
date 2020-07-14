@@ -34,6 +34,7 @@ cd $WORK_DIR && git submodule update --remote --merge && git commit -m "release 
 
 #update index
 cd $WORK_DIR && git checkout gh-pages;
+rm -f $WORK_DIR/.cr-release-packages/${CHART}*.tgz;
 cp -rf $CHART_DIR/*.tgz $WORK_DIR/.cr-release-packages;
 cd $WORK_DIR;
 mkdir -p .cr-index;
