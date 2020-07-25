@@ -8,3 +8,6 @@
 	path = charts/gitea
 	url = git@github.com:jfelten/gitea-helm-chart.git
 
+[submodule "charts/xwiki"]
+	path = charts/xwiki
+	url = https://github.com/keyporttech/helm-xwiki.git
