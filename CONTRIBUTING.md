@@ -48,10 +48,10 @@ The [chart testing tool](https://github.com/helm/chart-testing) has a number of 
  ```
 * Install the helm [chart testing tool](https://github.com/helm/chart-testing) following their instructions
 * Copy [chart_schema.yaml](https://github.com/helm/chart-testing/blob/master/etc/chart_schema.yaml) to local /etc/ct/chart_schema.yaml
-* Copy [lintconf.yaml](https://github.com/helm/chart-testing/blob/master/etc/lintconf.yaml) to local /etc/ct/lintconf.yamllint
+* Copy [lintconf.yaml](https://github.com/helm/chart-testing/blob/master/etc/lintconf.yaml) to local /etc/ct/lintconf.yaml
 
 #### Install [cr](https://github.com/helm/chart-releaser)
-* Install the helm [chart releaser tool](https://github.com/helm/chart-releaserg) following their instructions
+* Install the helm [chart releaser tool](https://github.com/helm/chart-releaser) following their instructions
 
 #### Other tools
 * [yq](https://github.com/mikefarah/yq)
