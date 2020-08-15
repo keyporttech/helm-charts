@@ -11,3 +11,6 @@
 	path = charts/k8sci
 	url = git@github.com:keyporttech/k8sci.git
 	branch = master
+[submodule "charts/xwiki"]
+	path = charts/xwiki
+	url = https://github.com/keyporttech/helm-xwiki.git
