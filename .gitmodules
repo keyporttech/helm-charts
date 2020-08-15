@@ -7,3 +7,7 @@
 [submodule "charts/gitea"]
 	path = charts/gitea
 	url = git@github.com:jfelten/gitea-helm-chart.git
+[submodule "charts/k8sci"]
+	path = charts/k8sci
+	url = git@github.com:keyporttech/k8sci.git
+	branch = master
