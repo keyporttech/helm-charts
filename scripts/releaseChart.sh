@@ -38,7 +38,7 @@ rm -f $WORK_DIR/.cr-release-packages/${CHART}*.tgz;
 cp -rf $CHART_DIR/*.tgz $WORK_DIR/.cr-release-packages;
 cd $WORK_DIR;
 mkdir -p .cr-index;
-cr index --charts-repo https://keyporttech.github.io --owner keyporttech --git-repo helm-charts;
+cr index --charts-repo https://keyporttech.github.io --owner keyporttech --git-repo helm-charts --token ${GITHUB_TOKEN};
 cp -f .cr-index/index.yaml ./index.yaml;
 git add ./index.yaml;
 git add .cr-release-packages/*
