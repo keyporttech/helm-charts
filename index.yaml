@@ -3,9 +3,9 @@ entries:
   dynamodb:
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2020-10-12T21:27:26.246608548Z"
+    created: "2020-10-12T23:21:27.09429316-07:00"
     description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: c73cfbf89efba393fc1b1a11c385902d0dee0a6922f238eabdc4eb5e44649cc4
+    digest: 7f4ed907eb1201d9eacc49be26cffa8c925536367e088e670aa68ca06f368108
     home: https://github.com/keyporttech/helm-dynamodb
     icon: https://www.iconfinder.com/icons/259307/download/png/512
     maintainers:
@@ -18,202 +18,12 @@ entries:
     - https://hub.docker.com/r/amazon/dynamodb-local
     type: application
     urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.21/dynamodb-0.1.21.tgz
-    version: 0.1.21
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:26.061349887Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: ed6dc9b7667b037c32d5e3d4b7488dc027a81716ea95d842ec15be8fb5d7e43a
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.20/dynamodb-0.1.20.tgz
-    version: 0.1.20
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:25.878415009Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: 5534cd827b96083c9384b5bdbfde2e64ca9599156579c3f2f9726599628aef78
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.18/dynamodb-0.1.18.tgz
-    version: 0.1.18
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:25.714275514Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: d80c09141553e0c44826f2a95e4e060cfc99953e315f41cad47a3e8d0e2331e2
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.17/dynamodb-0.1.17.tgz
-    version: 0.1.17
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:25.532558954Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: 8eae4910c50435c9d34a17a14a82ebbb068f5a0d7be70c4ae96fc849bab6a83e
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.16/dynamodb-0.1.16.tgz
-    version: 0.1.16
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:25.356886523Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: a2081698ff4d7ebcbbe25d0d4a544c9b77aec0413fd6c1cd8cc19c76f0542747
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.15/dynamodb-0.1.15.tgz
-    version: 0.1.15
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:25.186714318Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: 45b9ba9e8cab4579aab1adf11d02f725dd3c9c2c11b975ac2050ebd8659836e1
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.14/dynamodb-0.1.14.tgz
-    version: 0.1.14
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:25.001424034Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: fe1ff8f37511e1e38ebca9769fc89905185035618e879311d04ef1fd24e1ef7d
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.13/dynamodb-0.1.13.tgz
-    version: 0.1.13
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:24.814010713Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: efc33df54b55a23e46727a9e28bab3468486633a1f42495fd711b404e8400eb1
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.12/dynamodb-0.1.12.tgz
-    version: 0.1.12
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:24.636412028Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: 4791e9d8604e89e033bb8900e85e9fa870e818eb80c78277490b24e76e67c8be
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.11/dynamodb-0.1.11.tgz
-    version: 0.1.11
-  - apiVersion: v2
-    appVersion: 1.12.0
-    created: "2020-10-12T21:27:24.471092189Z"
-    description: A Helm chart for running amazon dynamo db on a kubernetes cluster
-    digest: 1463cbc85773935c732b696a6595f8cb04b093ac1952172dc5748caecf673a89
-    home: https://github.com/keyporttech/helm-dynamodb
-    icon: https://www.iconfinder.com/icons/259307/download/png/512
-    maintainers:
-    - email: github@keyporttech.com
-      name: keyporttech
-      url: https://github.com/keyporttech/helm-charts
-    name: dynamodb
-    sources:
-    - https://github.com/aaronshaf/dynamodb-admin
-    - https://hub.docker.com/r/amazon/dynamodb-local
-    type: application
-    urls:
-    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.10/dynamodb-0.1.10.tgz
-    version: 0.1.10
+    - https://github.com/keyporttech/helm-charts/releases/download/dynamodb-0.1.26/dynamodb-0.1.26.tgz
+    version: 0.1.26
   gitea:
   - apiVersion: v2
     appVersion: 1.12.4
-    created: "2020-10-12T21:27:27.181998491Z"
+    created: "2020-10-12T23:21:27.890029126-07:00"
     description: Git with a cup of tea
     digest: c3e19c09a5bfcfb3587fda769e53a6a5ffe7bf5698aa56f4d8a0c228a7e5bd0e
     home: https://github.com/jfelten/gitea-helm-chart
@@ -237,7 +47,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 1.12.4
-    created: "2020-10-12T21:27:26.991289959Z"
+    created: "2020-10-12T23:21:27.715307181-07:00"
     description: Git with a cup of tea
     digest: 16881b7f69f4fdd88ad1947bbf62249fa80c5b2d204a7bdd36fe67cebf58cc37
     home: https://github.com/jfelten/gitea-helm-chart
@@ -261,7 +71,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 1.12.2
-    created: "2020-10-12T21:27:26.826768541Z"
+    created: "2020-10-12T23:21:27.507224109-07:00"
     description: Git with a cup of tea
     digest: 204a113f595ebdf306caf6bc16e3e59a8bbe63417e448e173115f70af2b78b0c
     home: https://github.com/jfelten/gitea-helm-chart
@@ -285,7 +95,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.12.2
-    created: "2020-10-12T21:27:26.464280996Z"
+    created: "2020-10-12T23:21:27.253503-07:00"
     description: Git with a cup of tea
     digest: 9a06876e94333e3295edfd2a3527edc8cba8968bbc2695006db47cf4f4376973
     home: https://github.com/jfelten/gitea-helm-chart
@@ -310,7 +120,7 @@ entries:
   helm-csi-driver-nfs:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-10-12T21:27:27.356075657Z"
+    created: "2020-10-12T23:21:28.114831265-07:00"
     description: A Kubnetes Helm chart that mounts NFS volumes hosted on a remote
       server.
     digest: dfacd30cb23dd7918684bcab2007b938561f58a3ded3699301fc5ba32ff1253c
@@ -330,7 +140,7 @@ entries:
   k8sci:
   - apiVersion: v2
     appVersion: 0.15.0
-    created: "2020-10-12T21:27:28.304375044Z"
+    created: "2020-10-12T23:21:29.975483343-07:00"
     description: A simple kubernetes cicd system based on tektoncd
     digest: f52ee105e0913f2f5e702c99a48beca5f31f25755ecfa1c3a715f9becc372091
     home: https://github.com/keyporttech/helm-k8sci
@@ -350,7 +160,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.15.0
-    created: "2020-10-12T21:27:28.101546219Z"
+    created: "2020-10-12T23:21:29.767948575-07:00"
     description: A simple kubernetes cicd system based on tektoncd
     digest: e6ee3d0c3c3bcad540f4bcddb51c5ddebb00b87e41e3ec9a9a050e115bb8120f
     home: https://github.com/keyporttech/helm-k8sci
@@ -370,7 +180,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.15.0
-    created: "2020-10-12T21:27:27.89900218Z"
+    created: "2020-10-12T23:21:29.030078789-07:00"
     description: A simple kubernetes cicd system based on tektoncd
     digest: aa81d574903373e5293ae975129cce779635f0da1077ad4b27e74d6f61efc4f8
     home: https://github.com/keyporttech/helm-k8sci
@@ -389,7 +199,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-12T21:27:27.724835597Z"
+    created: "2020-10-12T23:21:28.853024498-07:00"
     description: A Helm chart for Kubernetes
     digest: 6f196144b4ad972acb147a051df5af83c2ccd0d8717f23a670c5f0dd54338800
     home: https://github.com/keyporttech/helm-k8sci
@@ -400,7 +210,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-12T21:27:27.538987759Z"
+    created: "2020-10-12T23:21:28.542197403-07:00"
     description: A Helm chart for Kubernetes
     digest: f7691eccdaf7d6f9be5a89747d815f7d1b71d09f6da331960735326f603dc408
     home: https://github.com/keyporttech/helm-k8sci
@@ -412,7 +222,7 @@ entries:
   statsd:
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:29.84238045Z"
+    created: "2020-10-12T23:21:31.871362528-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: a95175856f5a0785dca342472db8bff6a82bb8d3f429e4b82d71d56f02ce54ae
     home: https://github.com/keyporttech/helm-statsd
@@ -423,7 +233,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:29.684647388Z"
+    created: "2020-10-12T23:21:31.697555249-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: 19cad57203c189202e8d5a716fc14e7c1825785075829fca8fb2c03592e8a79a
     home: https://github.com/keyporttech/helm-statsd
@@ -434,7 +244,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:29.509583474Z"
+    created: "2020-10-12T23:21:31.49440111-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: 2ecf0866d0ae9abc710b95d20b7062482ded5bbdeb15e476ca3e24656caa6954
     home: https://github.com/keyporttech/helm-statsd
@@ -445,7 +255,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:29.315035013Z"
+    created: "2020-10-12T23:21:31.185194746-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: 9d710452eee1b87b865c28a04a1f251808800a3b09205021b62f965f6d94b676
     home: https://github.com/keyporttech/helm-statsd
@@ -456,7 +266,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:29.125070558Z"
+    created: "2020-10-12T23:21:30.980242533-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: b80d3c82d6450d6bd2c292085b7af73c0a8c6ee4dc9041f6df19e496ac5ca8ce
     home: https://github.com/keyporttech/helm-statsd
@@ -467,7 +277,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:28.95952124Z"
+    created: "2020-10-12T23:21:30.775507312-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: c65280924a2d377d088f77a10978e49077a1420af98cb93e82cae222799ded48
     home: https://github.com/keyporttech/helm-statsd
@@ -478,7 +288,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:28.794603777Z"
+    created: "2020-10-12T23:21:30.570574533-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: 4a76fe1bd25bda6e412fbb04f9417b94c26515ce5eb3fbcf8196b894502e29b4
     home: https://github.com/keyporttech/helm-statsd
@@ -489,7 +299,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:28.638998653Z"
+    created: "2020-10-12T23:21:30.36803418-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: 46161b9048539404ef2480591b394a13aab24b66be559f887c26175626aa1de3
     home: https://github.com/keyporttech/helm-statsd
@@ -500,7 +310,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:31.375349446Z"
+    created: "2020-10-12T23:21:33.54034446-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: c19a09b35af3bc320915626960f02a267fa92f529c2a6455409c364e5a5b5ad5
     home: https://github.com/keyporttech/helm-statsd
@@ -511,7 +321,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:31.213076507Z"
+    created: "2020-10-12T23:21:33.335692499-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: fe320a25fbe3fa659b46111bd0a22affa9bd5b5819618dd79d9dffcdc6c1ccb6
     home: https://github.com/keyporttech/helm-statsd
@@ -522,7 +332,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:31.057233027Z"
+    created: "2020-10-12T23:21:33.130821925-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: d59563698c5ab55f9c50589a7d8c961a71f0cd058b772aca3c61b8f8e56dbddc
     home: https://github.com/keyporttech/helm-statsd
@@ -533,7 +343,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:30.695941971Z"
+    created: "2020-10-12T23:21:32.885807255-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: a1164724ec3de1d1da0a7a018d3ad48dd354db020fe2ededfa3eb0f9e4620ed6
     home: https://github.com/keyporttech/helm-statsd
@@ -544,7 +354,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:30.515418143Z"
+    created: "2020-10-12T23:21:32.72140533-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: 6f672b16964503d051da72b33f68d11b192565ed29d07086b2d4e868a4ac3710
     home: https://github.com/keyporttech/helm-statsd
@@ -555,7 +365,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:30.357763228Z"
+    created: "2020-10-12T23:21:32.516154895-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: 0e0307d60d88fd05c037f8e30e00b33e89ca54d563741a11df3270f3555b0559
     home: https://github.com/keyporttech/helm-statsd
@@ -566,7 +376,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:30.191561882Z"
+    created: "2020-10-12T23:21:32.312618929-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: 22b4a84184a3b1c8ce6f6a6db4a27d2b779a4585c49d3d2c300db4e493a604b6
     home: https://github.com/keyporttech/helm-statsd
@@ -577,7 +387,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:29.995505775Z"
+    created: "2020-10-12T23:21:32.106891431-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: acdca5099921f2f789edf095ac2437941e545382aaa9748800873c616a0d919c
     home: https://github.com/keyporttech/helm-statsd
@@ -588,7 +398,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: v0.8.6
-    created: "2020-10-12T21:27:28.483269404Z"
+    created: "2020-10-12T23:21:30.161151446-07:00"
     description: a simple chart to deploy statsd to a cluster
     digest: a8b90d95081babdd7011d0d282facf13a24474433317f10a7a1c1b14595593fa
     home: https://github.com/keyporttech/helm-statsd
@@ -600,7 +410,7 @@ entries:
   xwiki:
   - apiVersion: v2
     appVersion: 11.10.816
-    created: "2020-10-12T21:27:31.533569283Z"
+    created: "2020-10-12T23:21:33.746531533-07:00"
     description: Helm chart for xwiki.
     digest: e6906977d726650872cb4552782a4646dda8bee767f4497f1afca039381b3f3c
     home: https://github.com/keyporttech/helm-xwiki
@@ -620,4 +430,4 @@ entries:
     urls:
     - https://github.com/keyporttech/helm-charts/releases/download/xwiki-0.1.1/xwiki-0.1.1.tgz
     version: 0.1.1
-generated: "2020-10-12T21:27:24.224470423Z"
+generated: "2020-10-12T23:21:26.837845828-07:00"
