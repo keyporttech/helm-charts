@@ -14,6 +14,12 @@
 [submodule "charts/xwiki"]
 	path = charts/xwiki
 	url = https://github.com/keyporttech/helm-xwiki.git
+
 [submodule "charts/gogs"]
 	path = charts/gogs
 	url = git@github.com:keyporttech/gogs-helm-chart.git
+
+[submodule "charts/csi-driver-nfs"]
+	path = charts/csi-driver-nfs
+	url = https://github.com/keyporttech/helm-csi-driver-nfs.git
+	
